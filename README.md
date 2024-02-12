@@ -2,7 +2,7 @@
 
 Utilize clangs built-in sarif formatter (clang version >= 17): 
 ```
-clang -fdiagnostics-format=sarif -Wunsafe-buffer-usage src/main.c  > sarif.json 2>&1
+clang -fdiagnostics-format=sarif -Wunsafe-buffer-usage src/main.c  > clang-sarif.json 2>&1
 ```
 
 ## Clang-Tidy
